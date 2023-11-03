@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Interest</title>
+    <link rel="stylesheet" href="./5style.css">
+</head>
+<body>
+    <div>
+    <h1>Interest Calculator</h1>
+    <form onsubmit="return false">
+        <label for="TotalInvestment">Total Investment: </label>
+        <input type="text" id="amount"><br>
+        <label for="Years">Years: </label>
+        <input type="text" id="years"><br><br>
+        <input type="submit" id="FD" value="FD" onclick="fd(amount.value,years.value)">
+        <input type="submit" id="LIC" value="LIC" onclick="lic(amount.value,years.value)">
+        <input type="submit" id="PO" value="PO" onclick="po(amount.value,years.value)">
+        <input type="submit" id="Sensex" value="Sensex" onclick="sensex(amount.value,years.value)">
+        <input type="submit" id="PPF" value="PPF" onclick="ppf(amount.value,years.value)">
+        
+    </div>
+    
+    </form>
+    <label for="output" id="demo"></label>
+    <script src="./5app.js"></script>
+</body>
+</html>

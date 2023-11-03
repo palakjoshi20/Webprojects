@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Loan emi calculator</title>
+    <link rel="stylesheet" href="./4style.css">
+</head>
+<body>
+    <div>
+    <h1>Loan EMI Calculator</h1>
+    <form onsubmit="return false">
+        <label for="LoanAmount">Loan Amount: </label>
+        <input type="text" id="amount"><br>
+        <label for="Interestsetrate">Interest rate: </label>
+        <input type="text" id="rate"><br>
+        <label for="Years">Years to pay: </label>
+        <input type="text" id="years"><br><br>
+        <input type="submit" value="Calculate" onclick="calculate(amount.value,rate.value,years.value)">
+    
+    </div>
+    
+    </form>
+    <label for="output" id="demo"></label>
+    <script src="./4app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(./istockphoto-1136810581-170667a.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    color: rgb(249, 178, 223);
+    font-size: 40px;
+    font-style: italic;
+}
+.col{
+    display: flex;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+input{
+    width:50%;
+    height: 50px;
+    text-align: center;
+    
+    
+}

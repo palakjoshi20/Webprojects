@@ -1,0 +1,76 @@
+input[type=text]{
+    width: 50%;
+    padding: 5px 5px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+label{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#FD{
+    background-color: rgb(55, 55, 249);
+    width: 15%;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+#LIC{
+    background-color: rgb(132, 245, 149);
+    width: 15%;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#PO{
+    background-color: rgb(204, 102, 143);
+    width: 15%;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#Sensex{
+    background-color: rgb(236, 245, 132);
+    width: 15%;
+    color: rgb(7, 5, 5);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#PPF{
+    background-color: rgb(2, 116, 112);
+    width: 15%;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+input[type=submit]:hover{
+    background-color: rgb(1, 1, 29);
+}
+div{
+    
+    background-color: rgb(221, 206, 166);
+    border-radius: 5px;
+    padding: 10px;
+    width:70% ;
+    
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
